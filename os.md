@@ -67,9 +67,6 @@ A process includes:
 
 > A process is a running program.
 
-## 🔍 YouTube Search Keywords
-
-`program vs process operating system`
 
 ---
 
