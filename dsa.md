@@ -271,6 +271,76 @@ O(n)
 
 ---
 
+# 🎯 Likely Interview Questions
+
+Practice these answers aloud. Do not memorize word-for-word; memorize the structure and key points.
+
+
+## 1. How do you multiply two matrices?
+
+To multiply two matrices, the number of columns in the first matrix must be equal to the number of rows in the second
+matrix. If A is n x m and B is m x p, the result C will be n x p.
+
+For each cell C[i][j], I compute the dot product of row i from A and column j from B. 
+The simple algorithm uses three
+nested loops. Its time complexity is O(n*m*p), and for square matrices it is O(n^3).
+
+```
+for i from 0 to n-1:
+for j from 0 to p-1:
+C[i][j] = 0
+for k from 0 to m-1:
+C[i][j] += A[i][k] * B[k][j]
+```
+---
+## 2. How do you shuffle an array?
+
+I would use the Fisher-Yates shuffle. Starting from the last index, I choose a random index between 0 and the current
+index and swap the two elements.
+
+This method is unbiased if the random number generator is fair, because every permutation has the same probability.
+The time complexity is O(n), and it shuffles in place with O(1) extra memory.
+
+```
+for i from n-1 down to 1:
+j = random integer between 0 and i
+swap arr[i] and arr[j]
+```
+---
+## 3. What is binary search?
+
+Binary search is a search algorithm for sorted data. 
+It repeatedly checks the middle element and removes half of the
+remaining search space. It is much faster than linear search for large sorted arrays, with O(log n) time complexity.
+
+ The main condition is that the data must be sorted
+
+---
+
+## 4. What is the difference between an array and a linked list?
+
+An array stores elements in contiguous memory and allows O(1) access by index, but insertion or deletion in the middle
+can be O(n). A linked list stores nodes connected by pointers. 
+
+It is better for insertion and deletion when the position is known, but random access is O(n) because we must traverse node by node.
+
+---
+
+## 5. What is the difference between a stack and a queue?
+A stack follows LIFO: last in, first out. The last element added is the first one removed. A queue follows FIFO: first in, first
+out. The first element added is the first one removed. Stacks are useful for recursion and undo operations; queues are
+useful for scheduling, buffering, and breadth-first search
+
+---
+
+## 6. What is recursion?
+
+Recursion is a technique where a function calls itself to solve smaller versions of the same problem. Every recursive
+function needs a base case to stop and a recursive case to continue. For example, factorial(n) can be defined as n *
+factorial(n-1), with factorial(0) = 1.
+
+---
+
 # 🎯 Final Interview Tips
 
 * Speak clearly and confidently
