@@ -343,7 +343,6 @@ factorial(n-1), with factorial(0) = 1.
 
 ## 7. What's hashing? How it works?
 
----
 
 ## 8. Write a function that checks if a string is palindrome. 
 ---
