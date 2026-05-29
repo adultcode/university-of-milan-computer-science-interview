@@ -303,9 +303,7 @@ Too many page faults reduce performance.
 
 > Paging is a memory management technique that maps virtual pages to physical frames.
 
-## 🔍 YouTube Search Keywords
 
-`paging page fault OS`
 
 ---
 
