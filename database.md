@@ -398,6 +398,57 @@ DROP TABLE users;
 > DELETE is for rows, TRUNCATE is for all rows, and DROP is for the table itself.
 
 ---
+# 🎯 Likely Interview Questions
+
+Practice these answers aloud. Do not memorize word-for-word; memorize the structure and key points.
+
+## 1. What is database integrity?
+
+Database integrity means keeping data accurate, consistent, and reliable. Entity integrity
+ensures unique primary keys, referential integrity ensures valid foreign keys, and domain integrity ensures values
+follow the correct type and constraints.
+
+## 2. What are database relationships?
+In relational databases, relationships can be one-to-one, one-to-many, or many-to-many. 
+
+A many-to-many relationship is usually implemented using a junction table that stores the connections between the
+two main tables.
+
+**One-to-one:** One row in table A relates to one row
+in table B. example: User and passport.
+
+**One-to-many:** One row in table A relates to many
+rows in table B. example: User and orders.
+
+**Many-to-many:** Many rows in A relate to many rows in
+B; needs an intermediate table. example: Students and courses via
+student_courses.
+
+## 3. What is wrong with this query? SELECT department, name, COUNT(*) FROM employees GROUP BY department;
+
+The problem is that name is selected but it is neither aggregated nor included in the GROUP BY clause. In SQL, selected columns must either be aggregated or included in GROUP BY
+
+## 4. What is normalization?
+
+Normalization is the process of organizing data to reduce redundancy and improve consistency. 
+
+For example, instead of storing customer details repeatedly in every order row, we store customers in a separate table and reference them using a foreign key.
+
+
+## 5. Other questions
+
+- What is a primary key?
+- Explain JOIN 
+- What is function dependency in relational databases?
+- What is the referential integrity in a relational database
+- What is a foreign key?
+- What is database integrity?
+- What are one-to-one, one-to-many, and many-to-many relationships?
+- What is normalization?
+- DELETE vs TRUNCATE vs DROP?
+- WHERE vs HAVING?
+- What is wrong with this SQL query?
+---
 
 # 🎯 Final Interview Tips
 

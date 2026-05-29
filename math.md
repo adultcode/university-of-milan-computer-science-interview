@@ -327,6 +327,30 @@ Example:
 | Variance           | Average squared deviation |
 | Standard Deviation | (\sqrt{\text{Variance}})  |
 
+
+# 🎯 Likely Interview Questions
+
+Practice these answers aloud. Do not memorize word-for-word; memorize the structure and key points.
+
+## 1. What is the product rule?
+
+If a function is the product of two functions, f(x) = u(x)v(x), then f'(x) = u'(x)v(x) + u(x)v'(x).
+
+## 2. derivative of x^2 sin(2x)
+
+## 3. What is variance?
+
+Variance measures how spread out the data is around the mean. 
+
+A small variance means values are close to the mean, while a large variance means values are more dispersed.
+
+## Other questions:
+
+- Plot a graph: y=0.5*sin(2x)+1
+- Find Euclidean norm
+- Find the dot product
+- Distance of two points
+- Basic probability: independent and mutually exclusive events.
 ---
 
 # 🎯 Final Interview Tips

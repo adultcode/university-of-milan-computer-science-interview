@@ -389,6 +389,27 @@ In the client-server model:
 | Efficiency     | Lower                           | Higher            |
 | Complexity     | Simpler                         | More complex      |
 
+
+# 🎯 Likely Interview Questions
+
+Practice these answers aloud. Do not memorize word-for-word; memorize the structure and key points.
+
+## 1. What is the difference between TCP and UDP?
+
+TCP is reliable and connection-oriented. It guarantees delivery, ordering, and error control.
+
+UDP is connectionless and faster, but it does not guarantee delivery or ordering. TCP is suitable for web browsing
+and file transfer, while UDP is useful for real-time applications such as streaming or online games.
+
+## 2. What is the difference between Go-Back-N and Selective Repeat?
+
+In Go-Back-N, if a packet is lost, the sender retransmits that packet and all following packets.
+
+In Selective Repeat, only the lost or corrupted packets are retransmitted, so it is more efficient but more complex.
+
+## 3. What's http? Statefull or stateless? Why?
+
+
 ---
 
 # 🎯 Final Interview Tips

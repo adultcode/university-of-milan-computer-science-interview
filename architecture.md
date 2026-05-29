@@ -383,6 +383,50 @@ Modern CPUs are built using billions of logic gates.
 | Size     | Smaller         | Larger      |
 | Location | Near/inside CPU | Main memory |
 
+
+# 🎯 Likely Interview Questions
+
+Practice these answers aloud. Do not memorize word-for-word; memorize the structure and key points.
+
+## 1. What is memory hierarchy?
+
+Memory hierarchy organizes storage based on speed, cost, and size.
+
+ Registers and cache are very fast but small, RAM is larger but slower, and disk storage is much larger but significantly slower.
+
+
+## 2. What is the difference between RAM and ROM?
+
+RAM is volatile memory used for running programs and storing temporary data.
+
+ ROM is nonvolatile memory that stores permanent instructions such as firmware or boot code.
+
+ ## 3. What is pipelining?
+
+ Pipelining improves CPU performance by overlapping different stages of instruction execution, such as fetch, decode, execute, memory access, and write-back.
+
+
+## 4. What is a pipeline flush?
+
+
+A pipeline flush happens when the CPU has loaded instructions that should not be executed, for example after a wrong branch prediction. 
+
+These instructions are removed from the pipeline, which creates a
+performance penalty.
+
+
+## 5. What are logic gates?
+
+ Logic gates are the basic building blocks of digital circuits.
+ 
+They operate on binary values and implement Boolean operations such as AND, OR, NOT, XOR, NAND, and NOR.
+
+## Other questions:
+
+- What is the concept of word?
+- How signed integer are represent in binary?
+
+
 ---
 
 # 🎯 Final Interview Tips

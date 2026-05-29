@@ -343,6 +343,33 @@ It provides an organized structure over raw storage devices.
 > The file system provides an organized abstraction over raw storage.
 
 
+# 🎯 Likely Interview Questions
+
+Practice these answers aloud. Do not memorize word-for-word; memorize the structure and key points.
+
+## 1. What is the difference between a program and a process?
+
+A program is a passive set of instructions stored on disk.
+
+ A process is an active instance of a program in execution. A process has its own memory space, program counter, stack, heap, and operating system resources.
+
+ ## 2. What is the difference between a process and a thread?
+
+ A process has its own independent memory space. Threads are smaller execution units inside a process and share the same memory. 
+ 
+ Threads are lighter and faster to create, but they require synchronization
+because shared memory can cause race conditions.
+
+## 3. What is a deadlock?
+
+A deadlock happens when processes wait for each other forever because each one holds a resource needed by another process.
+
+## 4. What is the Virtual Memory ?
+
+## 5. Mutex vs Semaphore
+
+## 6. What is the Context Switch ?
+
 ---
 
 # 🎯 Final Interview Tips
