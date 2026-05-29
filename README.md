@@ -2,7 +2,7 @@
 
 > Topic Lists, Short Explanations, and Model Answers for the
 > **University of Milan (UNIMI) Computer Science Master's Interview**
-
+* 🇮🇷  [راهنمای فارسی](README_FA.md)
 ---
 
 # 📖 About This Repository
