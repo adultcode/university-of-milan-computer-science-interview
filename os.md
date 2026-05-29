@@ -135,9 +135,7 @@ Too much context switching:
 
 > Context switching is necessary for multitasking, but too much switching reduces performance.
 
-## 🔍 YouTube Search Keywords
 
-`context switching OS`
 
 ---
 
